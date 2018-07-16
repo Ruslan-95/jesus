@@ -19,6 +19,8 @@
 .fuck {
     display: flex;
     margin: 0 auto;
+
+    animation: show 2s;
 }
 
 .hide {
@@ -118,3 +120,37 @@
     background: linear-gradient(top, #1d7d12 0%,#4fd342 100%); /* W3C */
 }
 
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.1;
+    }
+    40% {
+        opacity: 0.1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    60% {
+        opacity: 0.3;
+    }
+    70% {
+        opacity: 0.4;
+    }
+    80% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0.99;
+    }
+
+    0% {
+        transform: rotate(260deg);
+    }
+    100% {
+        transform: rotate(1440deg);
+    }
+}
