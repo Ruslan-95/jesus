@@ -22,9 +22,12 @@
 }
 
 .fuck {
+    position: relative;
+    left: -30px;
     display: flex;
     margin: 0 auto;
     animation: show 2s;
+
 }
 
 .hide {
