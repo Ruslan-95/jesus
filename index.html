@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Hello, bro</title>
+
+</head>
+<body>
+<main class="wrapper">
+    <h1 class="title">Нажми на кнопку</h1>
+    <div class="arrow">
+        <img src="gif/giphy.gif" alt="arrow">
+    </div>
+    <div class="circle-wrapper">
+        <div class="button">
+            <div class="outer">
+                <div class="height">
+                    <div class="inner">ЖМЯК</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<div class="wrapper2 hide">
+<h1 class="second-title">ФАК Ю, ЭССОУЛ</h1>
+    <img class="fuck" src="img/photo_2018-07-16_13-01-40.jpg" alt="fuck">
+</div>
+</body>
+<script>
+    var wrapper = document.querySelector(".wrapper");
+    var button = document.querySelector(".circle-wrapper");
+    var wrapper2 = document.querySelector(".wrapper2");
+    
+    button.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        wrapper.classList.add("hide");
+        wrapper2.classList.remove("hide")
+    });
+
+</script>
+</html>
