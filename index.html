@@ -11,7 +11,7 @@
 <main class="wrapper">
     <h1 class="title">Нажми на кнопку</h1>
     <div class="arrow">
-        <img src="gif/giphy.gif" alt="arrow">
+        <img  src="gif/giphy.gif" alt="arrow">
     </div>
     <div class="circle-wrapper">
         <div class="button">
@@ -24,9 +24,29 @@
     </div>
 </main>
 <div class="wrapper2 hide">
-<h1 class="second-title">ФАК Ю, ЭССОУЛ</h1>
+    <h1 class="second-title">ФАК Ю, ЭССОУЛ</h1>
+<div class="gif">
+    <div class="gif5">
+        <img class="g5" src="gif/giphy (9).gif" alt="gif" width="150">
+    </div>
+    <div class="gif6">
+        <img class="g6" src="gif/giphy (8).gif" alt="gif" width="150">
+    </div>
+    <div class="gif7">
+        <img class="g7" src="gif/giphy (7).gif" alt="gif" width="150">
+    </div>
+    <div class="gif8">
+        <img class="g8" src="gif/giphy (5).gif" alt="gif" width="150">
+    </div>
+    <div class="gif10">
+        <img class="g10" src="gif/giphy (4).gif" alt="gif" width="150">
+    </div>
+    <div class="gif11">
+        <img class="g11" src="gif/giphy (3).gif" alt="gif" width="150">
+    </div>
+</div>
     <img class="fuck" src="img/photo_2018-07-16_13-01-40.jpg" alt="fuck" width="1280">
-    <audio class="music" src="audio/song.mp3" preload="preload" ></audio>
+    <audio class="music" src="audio/song.mp3" preload="preload"></audio>
     <audio>
         <source src="audio/song.mp3" type="audio/mp3">
     </audio>
@@ -38,12 +58,15 @@
     var button = document.querySelector(".circle-wrapper");
     var wrapper2 = document.querySelector(".wrapper2");
     var music = document.querySelector(".music");
+    var body =document.querySelector("body");
 
     button.addEventListener("click", function (evt) {
         evt.preventDefault();
         wrapper.classList.add("hide");
         wrapper2.classList.remove("hide");
         music.setAttribute("autoplay", "autoplay");
+        body.classList.add("showbg")
+
 
     });
 
