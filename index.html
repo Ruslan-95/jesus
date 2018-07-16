@@ -25,22 +25,25 @@
 </main>
 <div class="wrapper2 hide">
 <h1 class="second-title">ФАК Ю, ЭССОУЛ</h1>
-    <img class="fuck" src="img/photo_2018-07-16_13-01-40.jpg" alt="fuck">
-    <audio src="Coldplay — Midnight.mp3"></audio>
+    <img class="fuck" src="img/photo_2018-07-16_13-01-40.jpg" alt="fuck" width="1280">
+    <audio class="music" src="audio/Yo Gotti — Fuck You (feat. Meek Mill).mp3" preload="auto" ></audio>
     <audio>
-        <source src="Coldplay — Midnight.mp3">
+        <source src="audio/Yo Gotti — Fuck You (feat. Meek Mill).mp3" type="audio/mp3">
     </audio>
 </div>
+
 </body>
 <script>
     var wrapper = document.querySelector(".wrapper");
     var button = document.querySelector(".circle-wrapper");
     var wrapper2 = document.querySelector(".wrapper2");
-    
+    var music = document.querySelector(".music");
+
     button.addEventListener("click", function (evt) {
         evt.preventDefault();
         wrapper.classList.add("hide");
-        wrapper2.classList.remove("hide")
+        wrapper2.classList.remove("hide");
+        music.setAttribute("autoplay", "autoplay");
 
     });
 
