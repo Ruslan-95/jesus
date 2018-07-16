@@ -46,8 +46,8 @@
     </div>
 </div>
     <img class="fuck" src="img/photo123.png" alt="fuck" width="1280">
-    <audio class="music" src="audio/song.mp3" preload="preload" loop></audio>
-    <audio>
+    <audio class="music" src="audio/song.mp3" preload="preload" loop ></audio>
+    <audio class="music" preload="preload" loop>
         <source src="audio/song.mp3" type="audio/mp3">
     </audio>
 </div>
@@ -64,7 +64,7 @@
         evt.preventDefault();
         wrapper.classList.add("hide");
         wrapper2.classList.remove("hide");
-        music.setAttribute("autoplay", "autoplay");
+        music.music.play();
         body.classList.add("showbg")
 
 
