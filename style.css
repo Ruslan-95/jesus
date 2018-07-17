@@ -19,6 +19,7 @@
     color: #f21f00;
     text-shadow: 9px 5px 4px #000000;
     margin-bottom: 0;
+    z-index: 10;
 }
 
 .arrow {
