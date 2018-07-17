@@ -2,16 +2,21 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Gaegu|Markazi+Text|Montserrat|Roboto+Condensed" rel="stylesheet">
+    <link href="PressStart2P.ttf"
+          rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
     <title>Hello, bro</title>
 
 </head>
 <body>
+<audio class="music" preload="auto" loop>
+    <source src="audio/song.mp3" type="audio/mp3">
+</audio>
+
 <main class="wrapper">
     <h1 class="title">Нажми на кнопку</h1>
     <div class="arrow">
-        <img  src="gif/giphy.gif" alt="arrow">
+        <img src="gif/giphy.gif" alt="arrow">
     </div>
     <div class="circle-wrapper">
         <div class="button">
@@ -25,31 +30,26 @@
 </main>
 <div class="wrapper2 hide">
     <h1 class="second-title">ФАК Ю, ЭССОУЛ</h1>
-<div class="gif">
-    <div class="gif5">
-        <img class="g5" src="gif/giphy (9).gif" alt="gif" width="150">
+
+    <div class="gif">
+        <div class="gif5">
+            <img class="g5" src="gif/yfvfy_38984614_orig_.jpeg" alt="img" width="150">
+        </div>
+        <div class="gif7">
+            <img class="g7" src="gif/giphy (7).gif" alt="gif" width="150">
+        </div>
+        <div class="gif8">
+            <img class="g8" src="gif/giphy (5).gif" alt="gif" width="150">
+        </div>
+        <div class="gif10">
+            <img class="g10" src="gif/giphy (4).gif" alt="gif" width="150">
+        </div>
+        <div class="gif11">
+            <img class="g11" src="gif/sem.gif" alt="gif" width="150">
+        </div>
     </div>
-    <div class="gif6">
-        <img class="g6" src="gif/giphy (8).gif" alt="gif" width="150">
-    </div>
-    <div class="gif7">
-        <img class="g7" src="gif/giphy (7).gif" alt="gif" width="150">
-    </div>
-    <div class="gif8">
-        <img class="g8" src="gif/giphy (5).gif" alt="gif" width="150">
-    </div>
-    <div class="gif10">
-        <img class="g10" src="gif/giphy (4).gif" alt="gif" width="150">
-    </div>
-    <div class="gif11">
-        <img class="g11" src="gif/giphy (3).gif" alt="gif" width="150">
-    </div>
-</div>
-    <img class="fuck" src="img/photo123.png" alt="fuck" width="1280">
-    <audio class="music" src="audio/song.mp3" preload="preload" loop ></audio>
-    <audio class="music" preload="preload" loop>
-        <source src="audio/song.mp3" type="audio/mp3">
-    </audio>
+    <img class="fuck" src="img/i`12.png" alt="fuck" width="1280">
+
 </div>
 
 </body>
@@ -58,16 +58,15 @@
     var button = document.querySelector(".circle-wrapper");
     var wrapper2 = document.querySelector(".wrapper2");
     var music = document.querySelector(".music");
-    var body =document.querySelector("body");
+    var body = document.querySelector("body");
 
     button.addEventListener("click", function (evt) {
         evt.preventDefault();
         wrapper.classList.add("hide");
         wrapper2.classList.remove("hide");
+
         music.play();
         body.classList.add("showbg")
-
-
     });
 
 </script>
