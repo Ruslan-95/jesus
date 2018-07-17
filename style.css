@@ -151,7 +151,7 @@
 .g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10, .g11 {
     position: absolute;
     width: 150px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .g11 {
@@ -163,7 +163,7 @@
 }
 
 .g10 {
-    margin-top: -70px;
+    margin-top: 20px;
     margin-left: 7%;
     transform: rotate(-15deg);
     animation: show 0.5s;
@@ -171,7 +171,7 @@
 
 .g8 {
     margin-top: 306px;
-    margin-left: 2%;
+    margin-left: 12%;
     transform: rotate(-15deg);
     animation: show 0.5s;
 }
