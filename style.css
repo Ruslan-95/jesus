@@ -74,7 +74,7 @@
     height: 100%;
     margin-top: -15px;
     padding-bottom: 15px;
-    background: #39a02d;
+    background: #a00000;
     border-radius: 16px;
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
@@ -88,7 +88,7 @@
 .button:hover .outer .height {
     margin-top: -10px;
     padding-bottom: 10px;
-    background: #3aaf2d;
+    background: #af0000;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 1px, inset rgba(0, 0, 0, 0.35) 0px -2px 6px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 1px, inset rgba(0, 0, 0, 0.35) 0px -2px 6px;
     -moz-box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 1px, inset rgba(0, 0, 0, 0.35) 0px -2px 6px;
@@ -100,19 +100,19 @@
 }
 
 .button .outer .height .inner {
-    color: #f21f00;
+    color: #f2eeeb;
     line-height: 2.5em;
     font-size: 40px;
     letter-spacing: .1em;
     position: relative;
     height: 100%;
     text-align: center;
-    text-shadow: #8aff7b 0px 0px 1px;
-    background: #44d135;
-    background: -moz-linear-gradient(top, #80ec75 0%, #43d034 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #80ec75), color-stop(100%, #43d034)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #80ec75 0%, #43d034 100%); /* Chrome10+,Safari5.1+ */
-    background: linear-gradient(top, #80ec75 0%, #43d034 100%); /* W3C */
+    text-shadow: #cd0004 0px 0px 1px;
+    background: #cc000f;
+    background: -moz-linear-gradient(top, #ec0026 0%, #ff0005 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ec0015), color-stop(100%, #ff0005)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ec001b 0%, #d03d28 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(top, #ff0012 0%, #610005 100%); /* W3C */
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
@@ -124,29 +124,29 @@
 }
 
 .button:hover .outer .height .inner {
-    color: #850800;
-    text-shadow: #99f48d 0px 0px 1px;
-    background: #43d034; /* Old browsers */
-    background: -moz-linear-gradient(top, #43d034 0%, #67e45c 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #43d034), color-stop(100%, #67e45c)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #43d034 0%, #67e45c 100%); /* Chrome10+,Safari5.1+ */
-    background: linear-gradient(top, #43d034 0%, #67e45c 100%); /* W3C */
+    color: #cac6c3;
+    text-shadow: #ff0005 0px 0px 1px;
+    background: #ff0005; /* Old browsers */
+    background: -moz-linear-gradient(top, #6e000d 0%, #ff0005 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d0000d), color-stop(100%, #ff0005)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #d0000e 0%, #ff0005 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(top, #b20016 0%, #850005 100%); /* W3C */
 }
 
 .button:active .outer .height .inner {
     color: #2d0700;
-    text-shadow: #319926 0px 1px 0px;
+    text-shadow: #99000c 0px 1px 0px;
     border-radius: 16px;
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
     box-shadow: inset rgba(0, 0, 0, 0.9) 0px 0px 8px;
     -webkit-box-shadow: inset rgba(0, 0, 0, 0.9) 0px 0px 8px;
     -moz-box-shadow: inset rgba(0, 0, 0, 0.9) 0px 0px 8px;
-    background: #1d7d12; /* Old browsers */
-    background: -moz-linear-gradient(top, #1d7d12 0%, #4fd342 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1d7d12), color-stop(100%, #4fd342)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #1d7d12 0%, #4fd342 100%); /* Chrome10+,Safari5.1+ */
-    background: linear-gradient(top, #1d7d12 0%, #4fd342 100%); /* W3C */
+    background: #7d000a; /* Old browsers */
+    background: -moz-linear-gradient(top, #7d0307 0%, #d3000f 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7d000a), color-stop(100%, #d30008)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7d0012 0%, #d30800 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(top, #7d0010 0%, #ff0005 100%); /* W3C */
 }
 
 .gif {
